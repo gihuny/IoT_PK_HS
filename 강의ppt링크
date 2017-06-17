@@ -10,12 +10,11 @@
  url for ppt:
   https://docs.google.com/presentation/d/1Dqcu0anFTwIcjGaLUujFMFfT-ipWAihkbtc26P1VbP8/edit?usp=sharing
  
- code: 인체감지 센서
+ 인체감지 센서 code: 
   SENSOR_trigger_test.py
   
- code: 카메라
-  
- 
+ 카메라 code folder:
+  camera
  
 4강 - Web 연동 (Flask 이용)
  url for ppt:
