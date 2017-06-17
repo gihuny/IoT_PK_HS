@@ -5,6 +5,9 @@
 2강 - GPIO 제어
  url for ppt:
   https://docs.google.com/presentation/d/1AJ3mILGc3EBv_mL9UwaLWboqzAtzB9JrvXkQapRJqFY/edit?usp=sharing
+  
+ code:
+  GPIO로 시작하는 .py 파일들 (GPIO*.py)
  
 3강 - 인체감지 센서 & 카메라 & SSH접속
  url for ppt:
