@@ -78,18 +78,18 @@ def clock_onoff(on):
                 for i in range (0,4):
     
                     # select Segment
-                    for j in range (0,4):
-                        if j == i:
-                            GPIO.output(SegSel[j], OFF)
-                        else:
-                            GPIO.output(SegSel[j], ON)
+         
+                    ####################
+                    # TO-DO: Fill HERE
+                    ####################
     
                     # display segment
-                    segment_control = control_segment(digit[i], False)
-                    for pincon in range(0,8): 
-                        GPIO.output(Segment[pincon], segment_control[pincon])
+        
+                    ####################
+                    # TO-DO: Fill HERE
+                    ####################
     
-    		# time multiplexing control
+                    # time multiplexing control
                     second_cnt += time_resolution
                     time.sleep(time_resolution)
       
