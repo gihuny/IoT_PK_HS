@@ -1,0 +1,61 @@
+1. i
+  편집모드 
+2. ESC
+  모드 나가기 
+
+3. u
+  되돌리기 (undo)
+4. ctrl+r
+  다시 하기 (redo) 
+
+5. :w
+ save 
+6. :q
+  나가기  
+
+7. ctrl+z
+  멈추기 (terminal로 나가기)
+8. fg
+  다시 시작 (terminal command)
+
+9. shift+G
+  맨 끝 라인으로 이동 
+10. 숫자입력 후 shift+G
+  특정 라인(입력한 숫자)으로 이동 
+
+11. ctrl+u
+ page up 
+12. ctrl+d
+ page down 
+
+13. yy
+ 한 라인 복사
+14. p
+ 붙여넣기
+
+15. v
+ VISUAL mode 
+
+16. ctrl+v
+ Visual block (세로편집 들어갈 때 사용)
+
+17. Visual block 상태에서 shift+i
+ 세로편집모드
+
+18. :sp
+ 화면 상하 분할
+19. :vsp
+ 화면 좌우 분할
+20. ctrl+w+방향키 창간 이동
+
+21. w
+ 다음 단어로 커서이동
+22. b
+ 앞 단어로 커서이동
+
+23. dd
+ 한 줄 지우기
+24. dw
+ 한 단어 지우기
+25. d+$
+ 커서 위치에서부터 현재라인 끝까지 지우기
