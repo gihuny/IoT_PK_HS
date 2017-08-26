@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Video Streaming Demonstration</title>
+  </head>
+  <body>
+    <h1>Video Streaming Demonstration</h1>
+    {% if video_on == true %}
+    <img src="{{ url_for('video_feed') }}">
+    {% else %}
+    <img src="blank.jpg", width='320', height='240'>
+    {% endif %}
+    
+    <br>
+    <button id="Video ON" class="button" onclick="window.location.href='/video/on'">Video ON</button>
+    <button id="Video OFF" class="button" onclick="window.location.href='/video/off'">Video OFF</button>
+
+  </body>
+</html>
