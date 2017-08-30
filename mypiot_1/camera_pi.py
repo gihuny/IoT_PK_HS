@@ -1,3 +1,10 @@
+# Video streaming codes from blog of miguelgrinberg
+# url:
+#   https://blog.miguelgrinberg.com/index
+#
+# codes are used for academic purpose, at highschool class
+#
+
 import time
 import io
 import threading
