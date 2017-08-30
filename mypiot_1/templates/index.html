@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MyPioT</title>
+  </head>
+  <body>
+    <h1>My Pi IoT Project</h1>
+    <p> The Video Streaming: 
+    {% if video_on == true %}
+    on
+    </p>
+    <img src="{{ url_for('video_feed') }}">
+    {% else %}
+    off
+    </p>
+    <img src=""blank.jpg" width="320" height="240"">
+    {% endif %}
+    <br>
+    <button id="Video ON" class="button" onclick="window.location.href='/video/on'">Video ON</button>
+    <button id="Video OFF" class="button" onclick="window.location.href='/video/off'">Video OFF</button>
+
+    <h2> </h2>
+    <h3>LED ON/OFF</h3>
+    <button id="LED ON" class="button" onclick="window.location.href='/led/on'">ON</button>
+    <button id="LED OFF" class="button" onclick="window.location.href='/led/off'">OFF</button>
+    <button id="LED TOGGLE" class="button" onclick="window.location.href='/led/toggle'">TOGGLE</button>
+    <br>
+    {% if message %}
+    <h4>{{ message }}</h4>
+    {% endif %}
+
+  </body>
+</html>
