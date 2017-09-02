@@ -54,3 +54,12 @@
   https://docs.google.com/presentation/d/1vNpNpK2dGfTGXC6U8rG0qETuNzv3Krwu8AtnOFDfVvQ/edit?usp=sharing
  code folder:
   mypiot_1
+  
+10강 - MyPioT (Web 제어버튼과 redirect)
+ url for ppt:
+  https://docs.google.com/presentation/d/1W616tePKPWZHoVNiZ7YmDfrkmPiKEXKT0T1bjJpmzFA/edit?usp=sharing
+ code folder:  
+  doorlock_examples
+  
+  adc/spi_book_add_luxcalc.py
+  adc/light_sensor.py
