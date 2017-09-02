@@ -59,7 +59,13 @@
  url for ppt:
   https://docs.google.com/presentation/d/1W616tePKPWZHoVNiZ7YmDfrkmPiKEXKT0T1bjJpmzFA/edit?usp=sharing
  code folder:  
-  doorlock_examples
+  도어락
+   doorlock_examples
   
-  analog_tests/spi_book_add_luxcalc.py
-  analog_tests/light_sensor.py
+  온습도/조도
+   analog_tests/spi_book_add_luxcalc.py
+   analog_tests/light_sensor.py
+
+  라즈베리파이 회로도 링크
+   https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/README.md
+   
