@@ -61,5 +61,5 @@
  code folder:  
   doorlock_examples
   
-  adc/spi_book_add_luxcalc.py
-  adc/light_sensor.py
+  analog_tests/spi_book_add_luxcalc.py
+  analog_tests/light_sensor.py
